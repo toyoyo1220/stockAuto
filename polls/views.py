@@ -23,7 +23,6 @@ def ajaxtext(request):
     context = {
         'code': "00",
     }
-
     return HttpResponse(json.dumps(context), content_type="application/json")
 
 
